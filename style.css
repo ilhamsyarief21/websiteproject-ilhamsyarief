@@ -1,0 +1,110 @@
+body {
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(8px); /* Mengatur tingkat blur */
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    background-color: white;
+    padding: 55px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+
+  
+  h2 {
+    text-align: center;
+    color:  rgb(223, 67, 67);
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .input-group:hover {
+    transform: scale(1.05);
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color:  rgb(223, 67, 67);
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+  }
+  
+  button:hover {
+    background-color: rgba(207, 75, 14, 0.8);
+  }
+
+  
+  .navbar {
+    background-color: rgb(223, 67, 67);
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .nav-item a:hover {
+    background-color: #f34539;
+  }
+  .forgot-password {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .forgot-password:hover {
+    color: rgb(223, 67, 67);
+  }
+  
+  .signup-text {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .signup-text a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .signup-text a:hover {
+    color: rgb(223, 67, 67);
+  }
